@@ -24,7 +24,7 @@ def get_distance():
     date_time = str(datetime.datetime.now())
     point = (lat_pos, lon_pos)
 
-    # car_position.insert({"latitud": lat_pos, "longitud": lon_pos, "hora_fecha": date_time})
+    car_position.insert({"latitud": lat_pos, "longitud": lon_pos, "hora_fecha": date_time})
 
     distances = []
     for i in cursor:
